@@ -15,19 +15,20 @@ body {
 
 .rectangle {
     background-color: rgb(255, 255, 255);
-    height: 450px;
-    width: 300px;
+    height: 500px;
+    width: 350px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .qr-img img {
     border-radius: 10px;
-    width: 265px;
+    width: 300px;
 }
 
 .qr-titles{
@@ -36,11 +37,11 @@ body {
 
 h1 {
     color: rgb(31, 50, 81);
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -48,8 +49,8 @@ h2 {
     color: rgb(123, 135, 157);
     margin-top: 15px;
     font-weight: 400;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 45px;
+    padding-right: 45px;
     font-size: 15px;
     text-align: center;    
     
